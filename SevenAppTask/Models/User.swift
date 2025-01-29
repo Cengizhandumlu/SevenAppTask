@@ -7,7 +7,7 @@
 
 import Foundation
 
-//Kullanıcı modelini temsil eden bir sturct oluşturuldu.
+//Kullanıcı modelini temsil eden bir struct oluşturuldu.
 struct User: Codable {
     let id: Int
     let name: String
