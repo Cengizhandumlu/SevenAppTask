@@ -15,11 +15,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        //yeni bir uiwindow nesnesi oluşturuldu.
         window = UIWindow(windowScene: windowScene)
         
+        // `UserListViewController`'ı ana ekran olarak kullanacak bir `UINavigationController` oluşturuldu.
         let navController = UINavigationController(rootViewController: UserListViewController())
+        
         window?.rootViewController = navController
-        window?.makeKeyAndVisible()
+        window?.makeKeyAndVisible() //pencerenin görünür hale getirilmesi.
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
