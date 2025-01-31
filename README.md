@@ -35,7 +35,7 @@ The app makes asynchronous API calls using async/await (available in Swift 5.5 a
 
 1. Clone the repository using the following command in your terminal:
    ```bash
-   git clone https://github.com/yourusername/SevenAppTask.git
+   git clone https://github.com/Cengizhandumlu/SevenAppTask
    
 2. Open the project in Xcode:
    Open the .xcodeproj or .xcworkspace file in Xcode.
